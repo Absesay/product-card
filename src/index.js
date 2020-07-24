@@ -3,7 +3,7 @@ import ReactDom from "react-dom"
 
 ReactDom.render(
 <div className="card">
-  <img alt="lover"/>
+  <img src="hero.jpg"alt="lover"/>
   <header>
     <h1>Dualshock 4 Midnight Blue</h1>
     <h4>$55</h4>
@@ -17,5 +17,5 @@ ReactDom.render(
     when an unknown printer took a galley of type and scrambled it to make a type 
     specimen book.
   </p>
-  <button type="button">Add Cart</button>
+  <button>Add Cart</button>
 </div>,document.getElementById("root"))
